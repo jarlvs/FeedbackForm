@@ -1,116 +1,120 @@
-.main {
+.main{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	padding: 60px 0 60px 0;
 }
 
 
-.logo {
-    margin-top: 250px;
-    display: block;
+.logo{
+	 margin-top: 250px;
+	 display: block;
     margin-left: auto;
     margin-right: auto;
     width: 20%;	
+
 }
 
-h1 {
+h1{
 	text-align: center;
 	font-family: 'Jua', sans-serif;
+	
 }
 
-h2 {
+h2{
 	text-align: center;
+	
 }
-
-label {
-    font-family: 'Jua', sans-serif;
-    font-size:20px;
+label{
+font-family: 'Jua', sans-serif;
+font-size:20px;
 }
 
 .row input {
-    font-family: 'Cabin', sans-serif;
-    font-size:45px;
+font-family: 'Cabin', sans-serif;
+font-size:45px;
 }
 
-.center {
-    margin-top: 50px;
+
+
+
+.center{
+ margin-top: 50px;
 }
 
-.name {
+.name{
  	padding:40px;
  	margin-left:50px;
  	width: 90%;
-}
+ }
 
-.option {
+ .option{
   	/*width: 100%;*/
    margin: 0 auto;
    padding: 30px;
    margin-left: 75px;
-}
+ }
 
 
-.btn-default {
+.btn-default{
 	padding: 30px;
 }
 
-.submitbtn {
+.submitbtn{
 	width: 268px;
 	padding: 15px;
 	font-size: 36px;
 	margin-top: 25px;
 }
 
-.center .right {
-    font-size:15px;
+.center .right{
+         font-size:15px;
 	float: right;
 	margin-right: 50px;
+	
 	font-family: 'Cabin', sans-serif;
 }
 
 .center .left {
-    font-size:15px;
+        font-size:15px;
 	margin-left: 50px;
+	
 	font-family: 'Cabin', sans-serif;
 }
 
 
 
-
-@media only screen and (max-width: 1080px) {
-
-.logo {
-   width:60%;
+@media only screen and (max-width: 1080px){
+.logo{
+width:60%;
 }
-
 }
-
 
 @media only screen and (min-width: 1080px) {
 
-.main {
-   margin-right:20px;
-}
+.main{
+ margin-right:20px;
+ }
  
-.raw  {
-   margin-top: -225px;
+.raw{
+	margin-top: -225px;
 }
 
-.name {
+
+.name{
  	padding:40px;
  	margin-left:50px;
  	width: 90%;
-}
-
-.btn-group {
+ }
+ .btn-group{
   	/*width: 100%;*/
    padding: 40px;
    text-align: center;
    margin-left:255px;
    /*margin-left: 75px;*/
-}
+ }
 
-.submitbtn {
+ .submitbtn{
  	margin-left: 50px;
-}
+ }
+
 
 }
